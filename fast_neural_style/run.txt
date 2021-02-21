@@ -1,0 +1,7 @@
+Usage:
+
+python neural_style/neural_style.py eval --content-image /c/Users/Brett/Documents/GitHub/examples/fast_neural_style/images/content-images/amber.jpg --model /c/Users/Brett/Documents/GitHub/examples/fast_neural_style/saved_models/mosaic.pth --output-image /c/Users/Brett/Documents/GitHub/examples/fast_neural_style/images/output-images/test1.jpg --cuda 0
+
+Train:
+python neural_style/neural_style.py train --dataset /d/Datasets/ --style-image /c/Users/Brett/Documents/GitHub/examples/fast_neural_style/images/style-images/spirit2.jpg --save-model-dir /c/Users/Brett/Documents/GitHub/examples/fast_neural_style/saved_models --epochs 2 --cuda 1 
+
